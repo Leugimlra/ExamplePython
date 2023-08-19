@@ -1,7 +1,7 @@
 **Overview** - 
 This is a project written by Miguel Lopez Rivera for an assignment in UMass's CS446: Search Engines, edited to provide greater context. This program takes a corpus of documents and a number of queries and scores each document based on the BM25 scoring algortihm or the Query Likelihood scoring algorithm (with Dirichlect smoothing).
 
-The dataset are the scenes from the cumulative works of Shakespeare. This data has been tokenized and stored in shakespeare-scenes.json.gz. The keys are as follows:
+The dataset consists of the scenes from the cumulative works of Shakespeare. This data has been tokenized and stored in shakespeare-scenes.json.gz. The keys are as follows:
 "playId", "sceneId", "sceneNum", and "text".
 This dataset has been preprocessed by stripping out punctuation and using the Krovetz Stemmer.
 
