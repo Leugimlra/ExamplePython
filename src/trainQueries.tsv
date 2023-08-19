@@ -1,0 +1,16 @@
+query0a	scene	ql	the	king	queen	royalty
+query0b	scene	bm25	the	king	queen	royalty
+query1a	scene	ql	you
+query1b	scene	bm25	you
+query2a	scene	ql	you	thou
+query2b	scene	bm25	you	thou
+query3a	scene	ql	venice	rome	denmark
+query3b	scene	bm25	venice	rome	denmark
+query4a	scene	ql	romeo	thumb
+query4b	scene	bm25	romeo	thumb
+query5a	scene	ql	pursue	bear
+query5b	scene	bm25	pursue	bear
+query6a	scene	ql	hope	dream	sleep
+query6b	scene	bm25	hope	dream	sleep
+query7a	scene	ql	to	be	or	not	to	be
+query7b	scene	bm25	to	be	or	not	to	be

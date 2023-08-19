@@ -1,0 +1,19 @@
+**Overview** - 
+This is a project written by Miguel Lopez Rivera for an assignment in UMass's CS446: Search Engines, edited to provide greater context. This program takes a corpus of documents and a number of queries and scores each document based on the BM25 scoring algortihm or the Query Likelihood scoring algorithm (with Dirichlect smoothing).
+
+The dataset are the scenes from the cumulative works of Shakespeare. This data has been tokenized and stored in shakespeare-scenes.json.gz. The keys are as follows:
+"playId", "sceneId", "sceneNum", and "text".
+This dataset has been preprocessed by stripping out punctuation and using the Krovetz Stemmer.
+
+When the program is run, it creates an index object. The run_queries method takes the query_file and scores documents in the corpus based on the queries listed in the file. 
+The queries are formatted as follows:
+[Query title]\t[scene/play]\t[ql/bm25]\t[term 0]\t[term n]
+
+The output file is formatted as follows:
+[Query title]\t[scene/play]\t[rank]\t[score]
+Each query gets returned the first 100 results.
+
+**Running** - 
+Use the following convention in the command line:
+python query.py [input_file] [queries_file] [output_file]
+the last three arguments are optional.
